@@ -1,0 +1,45 @@
+/* pages/detail/cpn/w-bottom-bar/w-bottom-bar.wxss */
+.bottom-bar {
+    display: flex;
+    background-color: #fff;
+    /* 方案1：fixed布局，scrollView设置下边距防止内容被bottom-bar挡住 */
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* 方案2：（不知道为什么没有生效）calc函数，scrollView高度为100vh-bottombar的固定高度 */
+    height: 120rpx;
+    font-size: 30rpx;
+    box-shadow: 0 -1px 1px rgba(100, 100, 100, .2);
+    text-align: center;
+}
+
+.left,
+.right {
+    display: flex;
+    flex: 1;
+}
+
+.left .left-item {
+    flex:1;
+    font-size: 28rpx;
+    margin-top: 20rpx;
+}
+
+.left .img {
+    width: 44rpx;
+    height: 44rpx;
+}
+
+.right-item {
+    flex:1;
+    line-height: 120rpx;
+}
+
+.addToCart {
+    background-color: #ffe817;
+}
+.buy {
+    background: #ff5777;
+    color: #fff;
+}

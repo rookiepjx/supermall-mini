@@ -1,0 +1,9 @@
+/* pages/detail/detail.wxss */
+.detail{
+    /* 样式不生效 */
+    /* height: calc(100 vh - 120 rpx); */
+    margin-bottom: 120rpx;
+}
+.detail .swiper{
+    height: 800rpx;
+}

@@ -1,0 +1,11 @@
+<!--components/w-goods-item/w-goods-item.wxml-->
+<view class="goods-item" bindtap="goodsClick">
+  <image lazy-load class="img" src="{{item.image || item.img || item.show.img}}" mode="widthFix"/>
+  <view class="desc-info">
+    <view class="title">{{item.title}}</view>
+    <view class="info">
+      <text class="price">￥{{item.price}}</text>
+      <text class="cfav iconfont icon-shoucang">{{item.cfav}}</text>
+    </view>
+  </view>
+</view>

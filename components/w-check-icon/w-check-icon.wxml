@@ -1,0 +1,5 @@
+<!--components/w-check-icon/w-check-icon.wxml-->
+<icon class='check-icon icon' 
+      type='success' size='20' 
+      style='border-color: {{selected ? "#ff5777": "#aaa"}};' 
+      color='{{selected ? "#ff5777": "#fff"}}'/>

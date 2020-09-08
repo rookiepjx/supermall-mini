@@ -1,0 +1,15 @@
+/* pages/category/category.wxss */
+.category{
+  height: 100%;
+  display: flex;
+}
+.category w-side-menu{
+  width: 30%;
+  height: 1600rpx;
+  position: fixed;
+}
+.category w-category-content{
+  width: 70%;
+  position: absolute;
+  left: 30%;
+}

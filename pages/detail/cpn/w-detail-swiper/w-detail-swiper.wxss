@@ -1,0 +1,8 @@
+/* pages/detail/cpn/w-detail-swiper/w-detail-swiper.wxss */
+.swiper{
+    height: 800rpx;
+  }
+  .img{
+    width: 752rpx;
+    height: 800rpx;
+  }

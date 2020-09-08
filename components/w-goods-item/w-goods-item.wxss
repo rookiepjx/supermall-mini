@@ -1,0 +1,43 @@
+/* components/w-goods-item/w-goods-item.wxss */
+.goods-item{
+  text-align: center;
+  padding-bottom:85rpx ;
+}
+.img{
+  width: 100%;
+  border-radius: 10rpx;
+}
+.desc-info{
+  /* relative在w-goods中 */
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.info{
+  font-size: 26rpx;
+}
+.title{
+  font-size: 26rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.price{
+  color:#ff5777;
+}
+.cfav{
+  margin-left: 10rpx;
+}
+/* base64字体图标样式 */
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 26rpx;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shoucang:before {
+  content: "\e66c";
+}

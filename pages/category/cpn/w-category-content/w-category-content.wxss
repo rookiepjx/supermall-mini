@@ -1,0 +1,25 @@
+/* pages/category/cpn/w-category-content/w-category-content.wxss */
+.content{
+  height: 100%;
+}
+.subCategories{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20rpx;
+  margin-top: 20rpx;
+}
+.item{
+  width: 33.3%;
+  text-align: center;
+}
+.img{
+  width: 80%;
+  height: 100rpx;
+}
+.title{
+  margin: 28rpx 0;
+  font-size: 26rpx;
+}
+.detail{
+  width: 100%;
+}

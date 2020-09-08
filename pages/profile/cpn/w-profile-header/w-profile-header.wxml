@@ -1,0 +1,19 @@
+<!--pages/profile/cpn/w-profile-header/w-profile-header.wxml-->
+<view class="header">
+	<!-- 1.左侧头像 -->
+	<view class="avatar">
+		<image class="img" src="/assets/images/profile/avatar.png" />
+	</view>
+	<!-- 2.中间文本 -->
+	<view class="login-info">
+		<view class="login">登录/注册</view>
+		<view class='phone'>
+			<image class="img" src="/assets/images/profile/phone.png" />
+			暂无绑定手机号
+		</view>
+	</view>
+	<!-- 3.右侧箭头 -->
+	<view class='arrow'>
+		<image class="img" src="/assets/images/common/arrow-right.png" />
+	</view>
+</view>

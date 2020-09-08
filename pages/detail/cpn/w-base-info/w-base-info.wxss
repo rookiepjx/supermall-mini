@@ -1,0 +1,59 @@
+/* pages/detail/cpn/w-base-info/w-base-info.wxss */
+.base-info{
+    padding: 20rpx;
+    margin-top: 10rpx;
+    border-bottom: 12rpx solid #f2f2f2;
+    color:#777;
+}
+.title{
+    font-size: 32rpx;
+}
+.priceInfo{
+    margin-top: 20rpx;
+}
+.priceItem{
+    margin-right: 20rpx;
+}
+.newPrice{
+    color:#ff5777;
+}
+.oldPrice{
+    text-decoration: line-through;
+}
+.discount{
+    font-size: 24rpx;
+    padding: 4rpx 8rpx;
+    background-color: #ff5777;
+    border-radius: 20rpx;
+    color:#fff;
+    position: relative;
+    bottom: 4rpx;
+}
+.sellInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20rpx;
+    padding-bottom:20rpx;
+    font-size: 26rpx;
+    border-bottom: 1px solid #ccc;
+}
+.service{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20rpx;
+}
+.service-item{
+    text-align: center;
+}
+.service-item .icon{
+    width: 24rpx;
+    height: 24rpx;
+    margin-right: 4rpx;
+    position: relative;
+    top: 4rpx;
+    right: 6rpx;
+}
+.service-item .name{
+    font-size: 24rpx;
+}

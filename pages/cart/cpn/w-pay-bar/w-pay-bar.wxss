@@ -1,0 +1,38 @@
+/* pages/cart/cpn/w-pay-bar/w-pay-bar.wxss */
+.pay-bar{
+    display: flex;
+    align-items: center;
+    height: 88rpx;
+    padding-left: 30rpx;
+    font-size: 28rpx;
+    background-color: #eee;
+    box-shadow: 0 -2px 2px rgba(0, 0, 0, .1);
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.select-all{
+    display: flex;
+    align-items: center;
+    width: 150rpx;
+}
+.select-all .icon{
+    margin-right: 20rpx;
+    vertical-align: middle;
+}
+.total{
+    flex:1;
+    font-size: 32rpx;
+    color: #333;
+}
+
+.pay-btn{
+    width: 200rpx;
+    height: 88rpx;
+    line-height: 88rpx;
+    background: #ff4500;
+    color: #fff;
+    text-align: center;
+}

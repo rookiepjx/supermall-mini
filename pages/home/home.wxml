@@ -1,0 +1,23 @@
+<!--pages/home/home.wxml-->
+<!-- 轮播图 -->
+<w-swiper images="{{banners}}" />
+<!-- 推荐 -->
+<w-recommend list="{{recommends}}" />
+<!-- 本周流行 -->
+<view class="popular">
+	<!-- 监听图片加载完，获取tabControl的距离顶部高度 -->
+	<image class="img" src="../../assets/images/home/recommend_bg.jpg" mode="widthFix" bindload="imageLoad" />
+</view>
+<!-- TbaControl栏，监听tabControl组件发射的tabClick事件 -->
+<view class="tabcontrol">
+	<w-tabcontrol id="tab-control" titles="{{titles}}" bind:tabClick="handleTabClick" />
+</view>
+<!-- <view hidden="{{!isTabFixed}}">
+	<w-tabcontrol titles="{{titles}}" class="tab2 fixed" bind:tabClick="handleTabClick" />
+</view> -->
+<!-- 商品goods-item -->
+<w-goods goodslist="{{goods[currentType].list}}" />
+<!-- 返回顶部按钮 -->
+<view wx:if="{{showBackTop}}">
+	<w-backTop />
+</view>

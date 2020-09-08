@@ -1,0 +1,13 @@
+<!--pages/cart/cpn/w-pay-bar/w-pay-bar.wxml-->
+<view class="pay-bar">
+	<view class="select-all">
+		<w-check-icon icon="icon" selected="{{selected}}" bindtap="handleSelectedAll"/>
+		<view class="all">全选</view>
+	</view>
+	<view class="total">
+		总计:￥{{price}}
+	</view>
+	<view class="pay-btn">
+		去计算({{count}})
+	</view>
+</view>

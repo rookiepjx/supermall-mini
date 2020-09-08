@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "w-cart-item":"./cpn/w-cart-item/w-cart-item",
+    "w-pay-bar":"./cpn/w-pay-bar/w-pay-bar"
+  },
+  "navigationBarTitleText": "购物车"
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "w-side-menu":"./cpn/w-side-menu/w-side-menu",
+    "w-category-content":"./cpn/w-category-content/w-category-content"
+  },
+  "navigationBarTitleText": "分类"
+}

@@ -1,0 +1,6 @@
+<!--pages/category/category.wxml-->
+<view class="category">
+	<!-- 监听子组件发射的点击事件 -->
+	<w-side-menu class="side-menu" categories="{{categories}}" bind:menuclick="menuClick" />
+	<w-category-content class="content" subCategories="{{categoryData[currentIndex].subCategories}}" categoryDetail="{{categoryData[currentIndex].categoryDetail}}" />
+</view>

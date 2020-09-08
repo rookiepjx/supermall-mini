@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "w-profile-header":"./cpn/w-profile-header/w-profile-header",
+    "w-profile-info":"./cpn/w-profile-info/w-profile-info",
+    "w-profile-list":"./cpn/w-profile-list/w-profile-list"
+  },
+  "navigationBarTitleText": "个人中心"
+}

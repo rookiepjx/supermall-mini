@@ -1,0 +1,9 @@
+<!--pages/profile/cpn/w-profile-list/w-profile-list.wxml-->
+<view class="list">
+	<block wx:for="{{list}}" wx:key="index">
+		<view class='list-item'>
+			<image class="img" src="/assets/images/profile/{{item.icon}}" />
+			<text class="title">{{item.info}}</text>
+		</view>
+	</block>
+</view>
